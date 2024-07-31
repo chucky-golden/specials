@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../../img/c.png');
+}
+.one{
+    text-align: center;
+    margin-top: 5%;
+    background: transparent;
+    border-radius: 20%;
+    clip-path: polygon(10% 0, 100% 10%, 100% 85%, 50% 100%, 0 65%);
+}
+.one img{
+    width: 65%;
+    height: 330px;
+}
+.intro{
+    margin-top: 9%;
+    text-align: center;
+}
+.intro .hurray, .d1 .q1{
+    color: rgb(187, 12, 41);
+    font-weight: bold;
+}
+.intro button{
+    border: none;
+    background-color: lightblue;
+    margin-top: 25%;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+}
+.d1, .d1 p{
+    margin-top: 20%;
+}
+.d2{
+    background-color: lightblue;
+    padding: 20px;
+    color: black;
+}
+.d2 p:nth-child(2){
+    margin-top: 20px;
+}
+.d2 p:nth-child(3){
+    margin-top: 5%;
+    font-family: algerian;
+}
+.d3 .row .col-md-12 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 380px;
+    margin-bottom: 20px;
+}
+.d3 .row .col-md-12 img, 
+.d3 .row .col-md-12 video {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.d5{
+    margin-top: 10%;
+    padding: 20px;
+    background-color: lightblue;
+    clip-path: polygon(0 15%, 50% 0, 100% 15%, 100% 85%, 50% 100%, 0 85%);
+}
