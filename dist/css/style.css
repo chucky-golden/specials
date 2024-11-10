@@ -21,8 +21,8 @@ body{
     clip-path: polygon(10% 0, 100% 10%, 100% 85%, 50% 100%, 0 65%);
 }
 .one img{
-    width: 65%;
-    height: 330px;
+    width: 85%;
+    height: 350px;
 }
 .intro{
     margin-top: 15%;
@@ -48,7 +48,12 @@ body{
     padding: 20px;
     color: black;
 }
-.d2 p:nth-child(2){
+.dd{
+    background-color: black;
+    padding: 20px;
+    color: lightblue;
+}
+.d2 p:nth-child(2), .dd p:nth-child(2){
     margin-top: 20px;
 }
 .d2 p:nth-child(3){
@@ -64,6 +69,7 @@ body{
     background-color: lightblue;
     clip-path: polygon(0 15%, 50% 0, 100% 15%, 100% 85%, 50% 100%, 0 85%);
 }
+.d5 a{ text-decoration: none; color: black; }
 
 
 .c-container{
