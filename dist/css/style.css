@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: cursive;
     text-align: center;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
@@ -22,7 +23,7 @@ body{
 }
 .one img{
     width: 85%;
-    height: 350px;
+    height: 380px;
 }
 .intro{
     margin-top: 15%;
